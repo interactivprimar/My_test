@@ -5,12 +5,13 @@ cd C:/Users/PP/Desktop/Marketing/Git_Hub/
 git init
 git remote add My_Test git@github.com:interactivprimar/My_test.git
 
-git push My_Test master - отправить на сервер
+git pull My_Test master - скачать с сервера
 
 после добавления файла:
 git add . - добавить все
 git add --all 
 git status
 git commit -m "NAME OF COMMIT" - сохранить действия
-git pull My_Test master - скачать с сервера
+git push My_Test master - отправить на сервер
+
 
